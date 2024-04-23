@@ -20,17 +20,17 @@ function App() {
           <div>
             <h3>Hello {user.name}</h3>
             <p>Count: {count}</p>
-            <button className="btn" onClick={incrementCounter}>Increment</button>
-            <button className="btn" onClick={decrementCounter}>Decrement</button>
+            <button className="btn1" onClick={incrementCounter}>Increment</button>
+            <button className="btn1" onClick={decrementCounter}>Decrement</button>
           </div>
         )}
 
         {isAuthenticated ? (
-          <button className="btn" onClick={(e) => logout()}>
+          <button className="btn1" onClick={(e) => logout()}>
             Logout
           </button>
         ) : (
-          <button className="btn" onClick={(e) => loginWithRedirect()}>
+          <button className="btn1" onClick={(e) => loginWithRedirect()}>
             Login with redirect
           </button>
         )}
