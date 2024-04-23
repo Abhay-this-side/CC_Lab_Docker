@@ -31,7 +31,7 @@ function App() {
           </button>
         ) : (
           <button className="btn1" onClick={(e) => loginWithRedirect()}>
-            Login with redirect
+            Login
           </button>
         )}
       </header>
